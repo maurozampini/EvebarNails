@@ -689,7 +689,7 @@ p.white-clrf {
 }
 .pricing-grid {
     float: left;
-    width: 31%;
+	width: 31%;
 }
 .pricing-grid.grid-two {
     margin: 0 2em;

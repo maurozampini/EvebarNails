@@ -3,3 +3,11 @@
 if(sd>settings.min)
 $(containerIDhash).fadeIn(settings.inDelay);else
 $(containerIDhash).fadeOut(settings.Outdelay);});};})(jQuery);
+
+$('#navbar ul li a').on('click', function(event){
+    var $anchor = $(this);
+    $('html, body').animate({
+      scrollTop: $($anchor.attr('href')).offset().top + "px"
+    }, 500);
+     event.preventDefault();
+ });
