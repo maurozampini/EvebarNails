@@ -54,7 +54,7 @@ background-color:rgba(255, 255, 255, 0.27);
 }
 .navbar-nav > li {
     text-align: center;
-	width:16.6%;
+	width: 25%; /*Si son más, menos porcentaje*/
 }
 div#navbar {
 	padding: 0px ;
@@ -718,9 +718,10 @@ p.white-clrf {
 }
 .pricing-grid {
     float: left;
-    width: 22.8%;
+    width: 19%;
     background: #fff;
-    padding: 1em 1em 2em;
+	padding: 1em 1em 2em;
+	margin-left: 10px;	
 }
 .w3ls-top {
     position: relative;
@@ -746,7 +747,7 @@ p.white-clrf {
     display: block;
 }
 .w3ls-top h3 {
-	font-size: 22px;
+	font-size: 20px;
 }
 .more a {
     display: inline-block;
@@ -2350,7 +2351,7 @@ h6.caption {
 	    min-height: 364px;
 }
 .pricing-grid {
-    width: 45%;
+	width: 45%;
 }
 .pricing-grid.grid-one,.pricing-grid.grid-two{
 	margin-bottom:2em;
