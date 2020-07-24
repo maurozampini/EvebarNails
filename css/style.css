@@ -721,7 +721,8 @@ p.white-clrf {
     width: 19%;
     background: #fff;
 	padding: 1em 1em 2em;
-	margin-left: 10px;	
+	margin-left: 5px;
+	margin-top: 5px;
 }
 .w3ls-top {
     position: relative;
@@ -2534,6 +2535,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .view, .view .mask, .view .content {
     width: 323px;
     height: 323px;
+}
+.pricing-grid {
+	margin-left: 0px;
 }
 }
 @media screen and (max-width: 667px){
